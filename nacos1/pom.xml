@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.javaer</groupId>
-    <artifactId>javaer</artifactId>
+    <artifactId>nacos1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>javaer</name>
+    <name>nacos1</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>jwtdemo</module>
-        <module>nacos1</module>
-
-    </modules>
 
     <properties>
         <java.version>1.8</java.version>
@@ -25,8 +18,20 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>nacos-config-spring-boot-starter</artifactId>
+            <version>0.2.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>nacos-discovery-spring-boot-starter</artifactId>
+            <version>0.2.7</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -70,7 +75,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.blog.javaer.JavaerApplication</mainClass>
+                    <mainClass>com.javaer.nacos1.Nacos1Application</mainClass>
                 </configuration>
                 <executions>
                     <execution>
