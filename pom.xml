@@ -12,7 +12,6 @@
     <modules>
         <module>jwtdemo</module>
         <module>nacos1</module>
-
     </modules>
 
     <properties>
