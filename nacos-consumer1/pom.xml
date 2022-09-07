@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.javaer</groupId>
-    <artifactId>javaer</artifactId>
+    <artifactId>nacos-consumer1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>javaer</name>
+    <name>nacos-consumer1</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>jwtdemo</module>
-        <module>nacos1</module>
-        <module>nacos-provider1</module>
-        <module>nacos-consumer1</module>
-    </modules>
 
     <properties>
         <java.version>1.8</java.version>
@@ -71,7 +63,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.blog.javaer.JavaerApplication</mainClass>
+                    <mainClass>com.javaer.nacosconsumer1.NacosConsumer1Application</mainClass>
                 </configuration>
                 <executions>
                     <execution>
