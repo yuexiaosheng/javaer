@@ -1,5 +1,6 @@
 package com.javaer.nacos1.controller;
 
+
 import com.alibaba.nacos.api.config.annotation.NacosValue;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,5 +19,6 @@ public class Config {
     public boolean get() {
         return useLocalCache;
     }
-
 }
+
+

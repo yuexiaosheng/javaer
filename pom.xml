@@ -14,6 +14,7 @@
         <module>nacos1</module>
         <module>nacos-provider1</module>
         <module>nacos-consumer1</module>
+        <module>nacos-config2</module>
     </modules>
 
     <properties>
