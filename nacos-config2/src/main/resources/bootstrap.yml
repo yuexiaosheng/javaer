@@ -1,10 +1,10 @@
 server:
   port: 3377 #端口号
 #config:
-#  info: "i am ghj"
+#  info: "i am java-er.com from bootstarp"
 spring:
   application:
-    name: nacos-config2 #服务名
+    name: test #服务名
   cloud:
     nacos:
       discovery:

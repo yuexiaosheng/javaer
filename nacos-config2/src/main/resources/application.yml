@@ -1,3 +1,9 @@
+server:
+  port: 3377 #端口号
+#config:
+#  info: "i am java-er.com application"
+
 spring:
   profiles:
     active: dev #激活 dev 的配置
+
