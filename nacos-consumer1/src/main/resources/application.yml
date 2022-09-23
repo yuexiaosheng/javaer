@@ -1,5 +1,5 @@
 server:
-  port: 8801  #端口号
+  port: 8002  #端口号
 spring:
   application:
     name: nacos-consumer1 #服务名
