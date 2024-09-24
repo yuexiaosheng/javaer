@@ -1,13 +1,13 @@
-package com.javaer.microservicecloudapi;
+package com.java.rabbitmqproducer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public classMicroServiceCloudApiApplication {
+public class RabbitmqProducerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroServiceCloudApiApplication.class, args);
+        SpringApplication.run(RabbitmqProducerApplication.class, args);
     }
 
 }

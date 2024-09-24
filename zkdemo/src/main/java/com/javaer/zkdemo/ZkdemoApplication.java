@@ -1,13 +1,13 @@
-package com.javaer.microservicecloudapi;
+package com.javaer.zkdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public classMicroServiceCloudApiApplication {
+public class ZkdemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroServiceCloudApiApplication.class, args);
+        SpringApplication.run(ZkdemoApplication.class, args);
     }
 
 }
