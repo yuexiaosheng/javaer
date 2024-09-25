@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos-provider1" />
+        <module name="nacos-consumer1" />
+        <module name="jwtdemo" />
+        <module name="nacos2" />
+        <module name="nacos-config2" />
+        <module name="nacos1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gateway0913" target="1.8" />
+      <module name="javaer" target="1.8" />
+      <module name="jwtdemo" target="1.8" />
+      <module name="nacos-config2" target="1.8" />
+      <module name="nacos-consumer1" target="1.5" />
+      <module name="nacos-provider1" target="1.5" />
+      <module name="nacos1" target="1.8" />
+      <module name="nacos2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

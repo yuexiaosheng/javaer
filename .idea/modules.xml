@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/javaer.iml" filepath="$PROJECT_DIR$/.idea/javaer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwtdemo/jwtdemo.iml" filepath="$PROJECT_DIR$/jwtdemo/jwtdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-config2/nacos-config2.iml" filepath="$PROJECT_DIR$/nacos-config2/nacos-config2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-consumer1/nacos-consumer1.iml" filepath="$PROJECT_DIR$/nacos-consumer1/nacos-consumer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-provider1/nacos-provider1.iml" filepath="$PROJECT_DIR$/nacos-provider1/nacos-provider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos1/nacos1.iml" filepath="$PROJECT_DIR$/nacos1/nacos1.iml" />
+    </modules>
+  </component>
+</project>
