@@ -18,4 +18,11 @@
         select * from website
     </select>
 
+
+    <!-- 查询所有网站信息 -->
+    <select id="selectOneWebsite" parameterType="java.lang.Integer"
+            resultType="com.example.Batis3.po.Website">
+        select * from website where id=#{id}
+    </select>
+
 </mapper>
