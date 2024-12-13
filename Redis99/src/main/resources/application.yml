@@ -6,3 +6,6 @@ spring:
     port: 6379
     database: 0
     password: ghj123
+mydoc:
+  qqname: john
+  qqpwd: 1234567
