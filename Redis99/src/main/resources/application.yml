@@ -1,0 +1,8 @@
+server:
+  port: 84
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+    password: ghj123
